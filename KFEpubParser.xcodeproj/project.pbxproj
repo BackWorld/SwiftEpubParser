@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		80737C501EAD917B0049A009 /* demo2.epub in Resources */ = {isa = PBXBuildFile; fileRef = 80737C4F1EAD917B0049A009 /* demo2.epub */; };
 		80737C521EAD94A10049A009 /* CatalogListVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80737C511EAD94A10049A009 /* CatalogListVC.swift */; };
+		80737C691EADDC590049A009 /* SwiftyXMLParser.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80737C651EADDC500049A009 /* SwiftyXMLParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		80737C6A1EADDC590049A009 /* Zip.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80737C661EADDC500049A009 /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		80F3E70E1EA9F31B0086FE65 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3E70D1EA9F31B0086FE65 /* AppDelegate.swift */; };
 		80F3E7101EA9F31B0086FE65 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3E70F1EA9F31B0086FE65 /* ViewController.swift */; };
 		80F3E7131EA9F31B0086FE65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 80F3E7111EA9F31B0086FE65 /* Main.storyboard */; };
@@ -17,14 +19,10 @@
 		80F3E7281EA9F7630086FE65 /* EpubContentModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3E7251EA9F7630086FE65 /* EpubContentModel.swift */; };
 		80F3E7291EA9F7630086FE65 /* EpubParserMacro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3E7261EA9F7630086FE65 /* EpubParserMacro.swift */; };
 		80F3E72B1EA9F7720086FE65 /* Cartfile in Resources */ = {isa = PBXBuildFile; fileRef = 80F3E72A1EA9F7720086FE65 /* Cartfile */; };
-		80F3E72E1EA9F9090086FE65 /* SwiftyXMLParser.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F3E72C1EA9F9090086FE65 /* SwiftyXMLParser.framework */; };
-		80F3E72F1EA9F9090086FE65 /* Zip.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80F3E72D1EA9F9090086FE65 /* Zip.framework */; };
 		80F3E7311EA9FA920086FE65 /* EpubParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3E7301EA9FA920086FE65 /* EpubParser.swift */; };
 		80F3E7331EA9FAB10086FE65 /* EpubExtractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3E7321EA9FAB10086FE65 /* EpubExtractor.swift */; };
 		80F3E7351EA9FAD00086FE65 /* EpubKit.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80F3E7341EA9FAD00086FE65 /* EpubKit.swift */; };
 		80F3E7371EAA04F60086FE65 /* demo.epub in Resources */ = {isa = PBXBuildFile; fileRef = 80F3E7361EAA04F60086FE65 /* demo.epub */; };
-		80F3E7391EAA07240086FE65 /* SwiftyXMLParser.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80F3E72C1EA9F9090086FE65 /* SwiftyXMLParser.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		80F3E73A1EAA07240086FE65 /* Zip.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 80F3E72D1EA9F9090086FE65 /* Zip.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,8 +32,8 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				80F3E7391EAA07240086FE65 /* SwiftyXMLParser.framework in CopyFiles */,
-				80F3E73A1EAA07240086FE65 /* Zip.framework in CopyFiles */,
+				80737C691EADDC590049A009 /* SwiftyXMLParser.framework in CopyFiles */,
+				80737C6A1EADDC590049A009 /* Zip.framework in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +42,8 @@
 /* Begin PBXFileReference section */
 		80737C4F1EAD917B0049A009 /* demo2.epub */ = {isa = PBXFileReference; lastKnownFileType = file; path = demo2.epub; sourceTree = "<group>"; };
 		80737C511EAD94A10049A009 /* CatalogListVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CatalogListVC.swift; sourceTree = "<group>"; };
+		80737C651EADDC500049A009 /* SwiftyXMLParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyXMLParser.framework; path = Carthage/Build/iOS/SwiftyXMLParser.framework; sourceTree = "<group>"; };
+		80737C661EADDC500049A009 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
 		80F3E70A1EA9F31B0086FE65 /* KFEpubParser.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KFEpubParser.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		80F3E70D1EA9F31B0086FE65 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		80F3E70F1EA9F31B0086FE65 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -54,8 +54,6 @@
 		80F3E7251EA9F7630086FE65 /* EpubContentModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpubContentModel.swift; sourceTree = "<group>"; };
 		80F3E7261EA9F7630086FE65 /* EpubParserMacro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpubParserMacro.swift; sourceTree = "<group>"; };
 		80F3E72A1EA9F7720086FE65 /* Cartfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
-		80F3E72C1EA9F9090086FE65 /* SwiftyXMLParser.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftyXMLParser.framework; path = Carthage/Build/iOS/SwiftyXMLParser.framework; sourceTree = "<group>"; };
-		80F3E72D1EA9F9090086FE65 /* Zip.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Zip.framework; path = Carthage/Build/iOS/Zip.framework; sourceTree = "<group>"; };
 		80F3E7301EA9FA920086FE65 /* EpubParser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpubParser.swift; sourceTree = "<group>"; };
 		80F3E7321EA9FAB10086FE65 /* EpubExtractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpubExtractor.swift; sourceTree = "<group>"; };
 		80F3E7341EA9FAD00086FE65 /* EpubKit.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EpubKit.swift; sourceTree = "<group>"; };
@@ -67,8 +65,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				80F3E72F1EA9F9090086FE65 /* Zip.framework in Frameworks */,
-				80F3E72E1EA9F9090086FE65 /* SwiftyXMLParser.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -122,11 +118,11 @@
 		80F3E7271EA9F7630086FE65 /* Vendor */ = {
 			isa = PBXGroup;
 			children = (
+				80737C651EADDC500049A009 /* SwiftyXMLParser.framework */,
+				80737C661EADDC500049A009 /* Zip.framework */,
 				80737C4F1EAD917B0049A009 /* demo2.epub */,
 				80F3E7361EAA04F60086FE65 /* demo.epub */,
 				80F3E72A1EA9F7720086FE65 /* Cartfile */,
-				80F3E72C1EA9F9090086FE65 /* SwiftyXMLParser.framework */,
-				80F3E72D1EA9F9090086FE65 /* Zip.framework */,
 			);
 			path = Vendor;
 			sourceTree = "<group>";
