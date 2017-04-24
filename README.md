@@ -1,7 +1,7 @@
 # SwiftEpubParser
 A easy and simple kit for epub file parsing with Swift 3.0.
 
-###关于EPub
+### 关于EPub
 
 > EPub（**Electronic Publication**）的缩写，意为电子出版物
 
@@ -14,16 +14,16 @@ A easy and simple kit for epub file parsing with Swift 3.0.
 
 ![文件基本结构](http://upload-images.jianshu.io/upload_images/1334681-f4dd758f9c091123.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###效果：
+### 效果：
 
-![目录结构](http://upload-images.jianshu.io/upload_images/1334681-e47b4d7fc5bd9009.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
+![解析后的epub目录展示](http://upload-images.jianshu.io/upload_images/1334681-e47b4d7fc5bd9009.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)
 
-###要求：
+### 要求：
 - Platform: iOS8.0+ 
 - Language: Swift3.0
 - Editor: Xcode8
 
-###用法：
+### 用法：
 > 由于epub的解压和解析用到了第三方库，所以得更新carthage
 使用`cd 到demo工程目录下`，然后执行`carthage update --platform iOS`
 
@@ -41,7 +41,7 @@ EpubKit.open(epub: url, destination: dest)
 }
 ```
 
-###数据模型
+### 数据模型
 ```
 class EpubContentModel: NSObject {
     var bookType: EpubBookType = .unknown
